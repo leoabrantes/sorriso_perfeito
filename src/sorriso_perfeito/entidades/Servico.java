@@ -1,5 +1,6 @@
 package sorriso_perfeito.entidades;
 
+
 public class Servico {
 	
 	private String descricao;

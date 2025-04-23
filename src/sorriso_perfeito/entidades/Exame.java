@@ -1,8 +1,10 @@
 package sorriso_perfeito.entidades;
 
+import sorriso_perfeito.entidades.enums.TipoExame;
+
 public class Exame extends Servico {
 	
-	private String medida_preventiva;
+	private TipoExame exame;
 	private int tipo_de_exame;
 	
 	public Exame(String medida_preventiva, int tipo_de_exame, String descricao, double preco) {
