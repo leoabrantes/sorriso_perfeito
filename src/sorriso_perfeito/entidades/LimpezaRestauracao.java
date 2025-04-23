@@ -1,11 +1,11 @@
 package sorriso_perfeito.entidades;
 
-public class Limpeza_Restauracao extends Servico {
+public class LimpezaRestauracao extends Servico {
 		
 		private String material_usado;
 		private String dente_tratado;
 		
-		public Limpeza_Restauracao(String material_usado, String dente_tratado, String descricao, double preco) {
+		public LimpezaRestauracao(String material_usado, String dente_tratado, String descricao, double preco) {
 			super(descricao, preco);
 			this.material_usado = material_usado;
 			this.dente_tratado = dente_tratado;

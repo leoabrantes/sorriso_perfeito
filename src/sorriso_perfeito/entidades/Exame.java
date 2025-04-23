@@ -4,33 +4,30 @@ import sorriso_perfeito.entidades.enums.TipoExame;
 
 public class Exame extends Servico {
 	
-	private TipoExame exame;
-	private int tipo_de_exame;
+	private TipoExame tipoExame;
+	private String salaExame;
 	
-	public Exame(String medida_preventiva, int tipo_de_exame, String descricao, double preco) {
-		super(descricao, preco);
-		this.medida_preventiva = medida_preventiva;
-		this.tipo_de_exame = tipo_de_exame;
+	public Exame(String descricao, double price, TipoExame tipoExame, String salaExame) {
+		super(descricao, price);
+		this.tipoExame = tipoExame;
+		this.salaExame = salaExame;
 	}
 
-	public String getMedida_preventiva() {
-		return medida_preventiva;
+	public TipoExame getTipoExame() {
+		return tipoExame;
 	}
 
-	public void setMedida_preventiva(String medida_preventiva) {
-		this.medida_preventiva = medida_preventiva;
+	public void setTipoExame(TipoExame tipoExame) {
+		this.tipoExame = tipoExame;
 	}
 
-	public int getTipo_de_exame() {
-		return tipo_de_exame;
+	public String getSalaExame() {
+		return salaExame;
 	}
 
-	public void setTipo_de_exame(int tipo_de_exame) {
-		this.tipo_de_exame = tipo_de_exame;
+	public void setSalaExame(String salaExame) {
+		this.salaExame = salaExame;
 	}
-	
-	
-	
 	
 
 }
